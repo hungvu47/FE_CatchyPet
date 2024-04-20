@@ -1,0 +1,202 @@
+.section_blog {
+  padding: 70px 0 0
+}
+
+@media (max-width: 991px) {
+  .section_blog {
+    padding: 50px 0 0
+  }
+}
+
+@media (max-width: 767px) {
+  .section_blog {
+    padding: 30px 0
+  }
+}
+
+.section_blog .btn-readmore {
+  text-align: right;
+  margin-top: 10px;
+  display: block
+}
+
+@media (max-width: 991px) {
+  .section_blog .btn-readmore {
+    text-align: center
+  }
+}
+
+.section_blog .btn-readmore a {
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  color: #363025;
+  font-weight: 500
+}
+
+.section_blog .btn-readmore a svg {
+  color: #f4b915;
+  height: 16px;
+  width: 16px;
+  transform: translateY(3px)
+}
+
+.section_blog .btn-readmore a:hover {
+  color: #f9a529
+}
+
+.section_blog .btn-readmore a:hover svg {
+  color: #333
+}
+
+@media (max-width: 991px) {
+  .section_blog .blogwp {
+    margin-bottom: 30px
+  }
+}
+
+.section_blog .blogwp .blog-thumbnail {
+  position: relative
+}
+
+.section_blog .blogwp .blog-thumbnail .thumb {
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden
+}
+
+.section_blog .blogwp .blog-thumbnail .thumb img {
+  width: 100%;
+  height: 350px
+}
+
+.section_blog .blogwp .blog-thumbnail .thumb img.loaded {
+  width: auto;
+  height: auto
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog {
+  margin: 0 30px;
+  padding: 25px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 26px 0px rgba(109, 73, 0, 0.08);
+  margin-top: -70px;
+  position: relative
+}
+
+@media (max-width: 767px) {
+  .section_blog .blogwp .blog-thumbnail .content_blog {
+    margin: -70px 15px 0;
+    padding: 15px
+  }
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0 0 17px;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: unset;
+  max-height: 64px;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+
+@media (max-width: 767px) {
+  .section_blog .blogwp .blog-thumbnail .content_blog h3 {
+    font-size: 16px
+  }
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog h3 a {
+  color: #363025;
+  font-weight: 700
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog h3 a:hover {
+  color: #f9a529
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog .summary_blog {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  white-space: unset;
+  margin-bottom: 15px
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog .summary_blog p {
+  font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+  color: #363025;
+  line-height: 26px;
+  font-weight: 400;
+  word-break: break-word;
+  margin-bottom: 0
+}
+
+@media (max-width: 767px) {
+  .section_blog .blogwp .blog-thumbnail .content_blog .summary_blog p {
+    font-size: 15px
+  }
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog .blog_bottom .post-time {
+  display: inline-block;
+  padding-right: 13px;
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  color: #8b8b8b
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog .blog_bottom .post-time:before {
+  content: "|";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  right: 0;
+  color: #d3d3d3
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog .blog_bottom .post-time svg {
+  width: 16px;
+  height: 16px;
+  transform: translateY(3px);
+  color: #f4b915
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog .blog_bottom .readmore {
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+  color: #363025;
+  margin-left: 13px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog .blog_bottom .readmore:hover {
+  color: #f9a529
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog .blog_bottom .readmore:hover:before {
+  background: #f9a529
+}
+
+.section_blog .blogwp .blog-thumbnail .content_blog .blog_bottom .readmore:before {
+  content: "";
+  background: #363025;
+  width: 100%;
+  height: 1px;
+  bottom: 3px;
+  position: absolute
+}

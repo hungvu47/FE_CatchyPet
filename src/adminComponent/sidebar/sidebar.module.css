@@ -1,0 +1,56 @@
+.sidebar {
+  flex: 1;
+  /* height: calc(100vh - 50px); */
+  background-color: #fff;
+  position: static;
+  overflow-y: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 1px;
+  /* Đặt chiều rộng của thanh cuộn cho trình duyệt webkit (Chrome, Safari, Opera) */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.sidebarWrapper {
+  padding: 8px;
+  color: white;
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+}
+
+.sidebarTitle {
+  font-size: 13px;
+  color: white;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.sidebarListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: #637381;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: #1b2850;
+  color: white;
+}
+
+.sidebarIcon {
+  margin-right: 25px;
+  font-size: 25px !important;
+}

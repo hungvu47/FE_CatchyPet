@@ -1,0 +1,23 @@
+.top-cart-content li.item:first-child {
+  border-top: none;
+}
+
+.top-cart-content li.item {
+  overflow: hidden;
+  padding: 0px;
+  position: relative;
+}
+
+.top-cart-content li.item .border_list {
+  overflow: hidden;
+  padding: 10px 10px 10px 0px;
+  border-bottom: solid 1px #ebebeb;
+  width: 100%;
+  float: left;
+}
+
+.top-cart-content li.item .image_drop .product-image img {
+  border: 0 none;
+  max-width: 100%;
+  height: auto
+}

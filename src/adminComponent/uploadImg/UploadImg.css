@@ -1,0 +1,90 @@
+.upload-image-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.dropzone-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 130px;
+}
+
+.dropzone-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 140px;
+  border: 2px solid #d1d5db;
+  border-style: dashed;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f3f4f6;
+}
+
+.dropzone-label:hover {
+  background-color: #eee;
+}
+
+.dropzone-label.dark:hover {
+  background-color: #eee;
+}
+
+.dropzone-label svg {
+  width: 40px;
+  height: 40px;
+}
+
+.readeImage {
+  position: relative;
+}
+
+.removeIcon {
+  position: absolute;
+  background-color: #ececec;
+  top: -5px;
+  right: -6px;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.removeIcon:hover {
+  background-color: red;
+}
+
+.dropzone-input {
+  display: none;
+}
+
+.uploaded-image {
+  background-size: cover;
+  width: 100%;
+  max-width: 130px;
+  height: 130px;
+}
+
+.remove-image-icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  color: #9ca3af;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.remove-image-icon:hover {
+  background-color: #ececec;
+  /* Thay đổi màu nền khi hover */
+}

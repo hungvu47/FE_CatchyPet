@@ -1,0 +1,113 @@
+.page_contact {
+  position: relative;
+  margin-bottom: -25px;
+}
+
+.page_contact .col-contact .single-contact {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page_contact .col-contact .single-contact .contact-icon {
+  border-radius: 50%;
+  color: #fff;
+  height: 50px;
+  margin: 0 auto 20px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.page_contact .col-contact:first-child .contact-icon {
+  background: #71cbe8;
+}
+
+.page_contact .col-contact:nth-child(n+2) .contact-icon {
+  background: #f9a529;
+}
+
+.page_contact .col-contact:last-child .contact-icon {
+  background: #ef1515;
+}
+
+.page_contact .col-contact .single-contact .title-contact {
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  color: #363025;
+  margin: 0 0 10px;
+}
+
+.page_contact .col-contact .single-contact a,
+.page_contact .col-contact .single-contact span {
+  font-size: 17px;
+  color: #363025;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.page_contact .col-contact .single-contact a:hover {
+  color: #f9a529;
+}
+
+.page_contact .col-contact .single-contact .contact-icon svg {
+  height: 50px;
+  width: 20px;
+  color: #fff;
+}
+
+.page_contact .bottom_contact {
+  position: relative;
+  min-height: 650px;
+  margin-top: 30px;
+}
+
+.page_contact .bottom_contact .iFrameMap {
+  width: 49%;
+  position: absolute;
+  height: 634px;
+  background: #fff;
+  border-left: 0;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.page_contact .bottom_contact .iFrameMap iframe {
+  width: 100%;
+  height: 634px;
+}
+
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+.custom-modal h2 {
+  color: #ef1515;
+}
+
+.custom-modal .contact-btn {
+  background-color: #ef1515;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  float: right;
+}
+
+.custom-modal .contact-btn:hover {
+  opacity: 0.8;
+}

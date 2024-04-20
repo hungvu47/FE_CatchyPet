@@ -1,0 +1,19 @@
+.section_slider {
+  margin-bottom: 60px
+}
+
+@media (max-width: 767px) {
+  .section_slider {
+    margin-bottom: 30px
+  }
+}
+
+.section_slider .home-slider .swiper-slide a {
+  display: block;
+  text-align: center
+}
+
+.section_slider .home-slider .swiper-slide a img {
+  width: auto;
+  height: auto
+}

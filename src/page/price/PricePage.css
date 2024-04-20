@@ -1,0 +1,107 @@
+.page_price_list {
+  margin-bottom: -25px;
+}
+
+.page_price_list .title_page {
+  margin-bottom: 30px;
+}
+
+.page_price_list .box_price {
+  padding: 50px 30px;
+  border: 1px solid #eeddba;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.page_price_list .box_price h2 {
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0;
+  font-size: 22px;
+  margin: 0 0 30px;
+  font-weight: 700;
+  color: #f4b915;
+  text-transform: uppercase;
+  color: #f4b915;
+  position: relative;
+  padding: 0 0px 35px 0;
+  display: block;
+}
+
+.page_price_list .box_price h2:before {
+  content: "";
+  width: 102px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -os-transform: translateX(-50%);
+  background-image: url(//bizweb.dktcdn.net/100/432/370/themes/894869/assets/bg-title.png?1665454509075);
+}
+
+.page_price_list .box_price table {
+  border: 0;
+}
+
+.page_price_list .box_price table tbody tr {
+  padding: 0 0 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eeddba;
+  display: flex;
+}
+
+.page_price_list .box_price table tbody tr td:first-child {
+  width: 80%;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 17px;
+  color: #363025;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+
+.page_price_list .box_price table tbody tr td {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+}
+
+.page_price_list .box_price table tbody tr td:first-child:before {
+  background: url(//bizweb.dktcdn.net/100/432/370/themes/894869/assets/bg_list_price.png?1665454509075);
+  width: 17px;
+  height: 17px;
+  top: 3px;
+  left: 5px;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  content: "";
+}
+
+.page_price_list .box_price table tbody tr td:last-child {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  color: #ef1515;
+  text-align: right;
+  font-size: 17px;
+  width: 20%;
+}
+
+.page_price_list .box_price table tbody tr td {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+}
+
+.page_price_list .banner_price {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}

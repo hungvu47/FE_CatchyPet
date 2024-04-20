@@ -1,0 +1,96 @@
+.section-login,
+.section-register {
+  background: #fcf8ee;
+}
+
+.page_login .page-login .des {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.page_login .page-login .form-signup .form-group {
+  margin-bottom: 0px;
+}
+
+.page_login .page-login .form-signup .form-group label {
+  margin-top: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #363025;
+  font-size: 14px;
+}
+
+.page_login .page-login .form-signup .form-group label span {
+  color: #ff0000;
+}
+
+.page_login .page-login .form-signup .form-group input {
+  font-size: 14px;
+  height: 40px;
+  padding: 0 20px;
+  color: #363025;
+  line-height: 40px;
+  margin-bottom: 8px;
+  border-radius: 10px !important;
+  border-color: #e1e1e1;
+  box-shadow: none;
+}
+
+.page_login .page-login .form-signup .button_bottom {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.page_login .page-login .form-signup .btn-login {
+  position: relative;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.page_login .btn_50 {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background: #f4b915;
+  border: solid 1px #f4b915;
+  font-size: 16px;
+  line-height: 40px;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 0 20px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.page_login .btn_50:hover {
+  background: #363025;
+  color: #fff;
+  border-color: #363025;
+}
+
+.page_login .page-login .form-signup .btn-link-style {
+  color: #ff0000;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.social-login--facebooks {
+  text-align: center !important;
+  margin-top: 20px !important;
+  width: 100% !important;
+  float: left !important;
+}
+
+.social-login--facebooks a {
+  display: inline-block !important;
+  height: 35px !important;
+  margin-left: 2px;
+  margin-right: 2px;
+}
